@@ -9,9 +9,9 @@ public class DBConnection {
     private static final String URL =
             "jdbc:mysql://127.0.0.1:3306/bank_db";
 
-    private static final String USER = "root";
+    private static final String USER = "your_mysql_username";
 
-    private static final String PASSWORD = "Bhavesh@0000";
+    private static final String PASSWORD = "Your_mysql_pass";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
